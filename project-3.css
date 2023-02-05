@@ -1,0 +1,104 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700,800");
+@import url("https://px.animaapp.com/61dee1edb8dacd8a5d06d3a7.61dee1f1ec91c1846a510ad6.YWqLVao.hcp.png");
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+:root { 
+  --black: #000000;
+ 
+  --font-size-l: 96px;
+  --font-size-m: 24px;
+ 
+  --font-family-poppins: "Poppins", Helvetica;
+}
+
+.project-3 {
+  align-items: flex-start;
+  background-color: #161616;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  padding: 60px 69px;
+  width: 1440px;
+}
+
+.project-3 .place {
+  color: #f8f7f9;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 5px;
+  min-height: 36px;
+}
+
+.project-3 .new-years-red-packet-design {
+  align-self: center;
+  color: transparent;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 96px;
+  width: 910px;
+}
+
+.project-3 .span {
+  color: #f8f7f9;
+}
+
+.project-3 .span-1 {
+  color: #c73828;
+}
+
+.project-3 .flex-row {
+  align-items: center;
+  align-self: flex-end;
+  display: flex;
+  gap: 31px;
+  height: 544px;
+  margin-top: 66px;
+  min-width: 1297px;
+}
+
+.project-3 .redpacket {
+  height: 522px;
+  margin-bottom: 4.0px;
+  width: 685px;
+}
+
+.project-3 .project3text {
+  color: #f8f7f980;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 544px;
+  text-align: justify;
+  width: 581px;
+}

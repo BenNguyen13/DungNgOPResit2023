@@ -1,0 +1,106 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700,800");
+@import url("https://px.animaapp.com/61dee1edb8dacd8a5d06d3a7.61dee1f1ec91c1846a510ad6.YWqLVao.hcp.png");
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root { 
+  --black: #000000;
+ 
+  --font-size-l: 96px;
+  --font-size-m: 24px;
+ 
+  --font-family-poppins: "Poppins", Helvetica;
+}
+
+.project-1 {
+  align-items: flex-start;
+  background-color: #161616;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  padding: 60px 72px;
+  width: 1440px;
+}
+
+.project-1 .place {
+  color: #f8f7f9;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 2px;
+  min-height: 36px;
+}
+
+.project-1 .title {
+  align-self: center;
+  color: transparent;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 96px;
+  margin-left: 1.0px;
+  margin-top: 63px;
+  white-space: nowrap;
+  width: 545px;
+}
+
+.project-1 .span {
+  color: #f8f7f9;
+}
+
+.project-1 .span-1 {
+  color: #2eb2db;
+}
+
+.project-1 .flex-row {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  gap: 38px;
+  height: 540px;
+  margin-top: 69px;
+  min-width: 1294px;
+}
+
+.project-1 .project1text {
+  color: #f8f7f980;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 539px;
+  text-align: justify;
+  width: 513px;
+}
+
+.project-1 .simcontrol {
+  align-self: flex-end;
+  height: 539px;
+  width: 743px;
+}

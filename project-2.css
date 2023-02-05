@@ -1,0 +1,110 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700,800");
+@import url("https://px.animaapp.com/61dee1edb8dacd8a5d06d3a7.61dee1f1ec91c1846a510ad6.YWqLVao.hcp.png");
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root { 
+  --black: #000000;
+ 
+  --font-size-l: 96px;
+  --font-size-m: 24px;
+ 
+  --font-family-poppins: "Poppins", Helvetica;
+}
+
+.project-2 {
+  align-items: center;
+  background-color: #161616;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  padding: 60px 0;
+  width: 1440px;
+}
+
+.project-2 .place {
+  align-self: flex-start;
+  color: #f8f7f9;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 74px;
+  min-height: 36px;
+}
+
+.project-2 .title {
+  color: transparent;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 96px;
+  margin-left: 1.0px;
+  margin-top: 36px;
+  white-space: nowrap;
+  width: 1111px;
+}
+
+.project-2 .span {
+  color: #f5f5f5;
+}
+
+.project-2 .span-1 {
+  color: #c73828;
+}
+
+.project-2 .span-2 {
+  color: #f8f7f9;
+}
+
+.project-2 .flex-row {
+  align-items: flex-start;
+  display: flex;
+  gap: 24px;
+  height: 644px;
+  margin-top: 57px;
+  min-width: 1298px;
+}
+
+.project-2 .project2text {
+  color: #ffffff80;
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 643px;
+  text-align: justify;
+  width: 554px;
+}
+
+.project-2 .youtube {
+  align-self: flex-end;
+  height: 643px;
+  object-fit: cover;
+  width: 720px;
+}
